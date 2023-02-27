@@ -1063,11 +1063,11 @@ class User extends AppModel
         $authKey = $this->generateAuthKey();
         $admin = array('User' => array(
             'id' => 1,
-            'email' => 'admin@admin.test',
+            'email' => 'admin@misp.transit',
             'org_id' => $org_id,
             'password' => 'admin',
             'confirm_password' => 'admin',
-            'authkey' => $authKey,
+            'authkey' => 'VOZANTBy7I0SPJSfGytKZN1JBzZ2GlmLsxnTVSec',
             'nids_sid' => 4000000,
             'newsread' => 0,
             'role_id' => 1,
